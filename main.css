@@ -1,0 +1,30 @@
+.box1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    display: inline-block;
+  }
+  
+.box2{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    display: inline-block;
+        }
+  
+.box3{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    display: inline-block;
+    vertical-align: top;
+    
+    }
+
+/* media queries: teacher uses a selection without 'screen and'. He still manages to have the html respond to this css. When I try to do that it does not work. Only when I add the 'screen and' I can get the responsiveness to work. Was this intended, so the student needs to find out himself? Or is there something else I overlooked?*/
+
+@media screen and (max-width: 767px){
+    .mobile{
+        background-color: blue;
+    }
+}

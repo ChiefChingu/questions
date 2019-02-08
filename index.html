@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+<!-- set as inline-block, so I understand the positioning of the elements. Blocks on a line :) -->    
+<div class="container">
+    <div class="box1 mobile"></div>
+    <div class="box1 tablet"></div>
+    <div class="box1 desktop"></div>
+</div>
+
+</br>
+</br>
+<!-- When entering text the element moves down. Somehow this is related to the line: it seems the text is centered relative to the parent element of the box (i.e. the container). Is this correct?-->
+<div class="container">
+    <div class="box2 mobile"></div>
+    <div class="box2 tablet">Tablet - why is the box moving down?</div>
+    <div class="box2 desktop"></div>
+</div>
+
+</br>
+</br>
+
+<div class="container">
+    <div class="box3 mobile"></div>
+    <div class="box3 tablet">Tablet - corrected with vertical-align: top;</div>
+    <div class="box3 desktop"></div>
+</div>
+
+
+    
+</body>
+</html>
